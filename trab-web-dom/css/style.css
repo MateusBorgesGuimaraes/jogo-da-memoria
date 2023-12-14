@@ -1,0 +1,203 @@
+p,
+h1,
+ul,
+li,
+blockquote {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+body {
+  background-image: url("../images/pattern3.jpg");
+  background-size: cover;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+}
+
+.tit {
+  font-family: "Alfa Slab One", serif;
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+
+.btn-start {
+  font-family: "Alfa Slab One", serif;
+  font-size: 24px;
+  outline: none;
+  border: none;
+  background-color: #44e241;
+  width: 200px;
+  justify-self: center;
+  border-radius: 8px;
+  height: 60px;
+  color: white;
+}
+
+.btn-start:hover {
+  background-color: #199317;
+}
+
+.inicio {
+  background-color: #199317;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  border: 2px solid #f40202;
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.trys {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  font-family: "Alfa Slab One", serif;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.tentativas,
+.pontos {
+  font-size: 32px;
+  padding: 4px;
+  border-radius: 8px;
+  background-color: #f40202;
+  color: white;
+}
+
+.pontos {
+  background-color: #44e241;
+}
+
+.points {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bulbasaur {
+  background-image: url("../images/bulbasaur.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.charmander {
+  background-image: url("../images/charmander.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pidgey {
+  background-image: url("../images/pidgey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pikachu {
+  background-image: url("../images/pikachu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.squirtle {
+  background-image: url("../images/squirtle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.meowth {
+  background-image: url("../images/meowth.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vulpix {
+  background-image: url("../images/vulpix.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jigglypuff {
+  background-image: url("../images/jigglypuff.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.psyduck {
+  background-image: url("../images/psyduck.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.abra {
+  background-image: url("../images/abra.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scyther {
+  background-image: url("../images/scyther.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eevee {
+  background-image: url("../images/eevee.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fundo2 {
+  background-image: url("../images/fundo2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fundo3 {
+  background-image: url("../images/fundo3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.find {
+  border: 2px solid #44e241;
+}
+
+.fora {
+  display: none;
+}
